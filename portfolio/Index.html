@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mark Arvin D. Dela Cruz — Portfolio</title>
+  <meta name="description" content="Portfolio of Mark Arvin D. Dela Cruz — frontend, design, projects and contact." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Inter for body, and a contrasting heading font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../portfolio/css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="Home - Mark Arvin D. Dela Cruz">Mark Arvin</a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" aria-pressed="false" aria-label="Toggle dark mode" class="icon-btn">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" role="main">
+    <!-- Hero -->
+    <section id="home" class="hero" aria-label="Intro">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hello — I’m</p>
+          <h1 class="hero-title">Mark Arvin D. Dela Cruz</h1>
+          <p class="hero-sub">Aspiring IT professional focused on frontend design & intuitive user experiences.</p>
+          <p class="hero-cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </p>
+        </div>
+
+        <div class="hero-media" aria-hidden="false">
+          <img src="/photos/MarkFormal.jpg" alt="Portrait of Mark Arvin D. Dela Cruz" class="avatar" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" aria-label="About me">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div class="about-bio">
+            <p>I’m Mark a 4th year Information Technology student at Saint Louis University. I enjoy designing web interfaces and implementing clean front-end solutions using HTML, CSS, and design tools like Figma & Canva. I’ve contributed to an IT Capstone project as a tester and design contributor.</p>
+            <ul class="highlights">
+              <li>Frontend & UI design (Figma, HTML/CSS)</li>
+              <li>Programming basics: Java, Python, C++</li>
+              <li>Version control & tools: GitHub, VS Code</li>
+            </ul>
+          </div>
+          <div class="about-stats">
+            <div class="card">
+              <strong>Location</strong>
+              <p>Baguio City, Philippines</p>
+            </div>
+            <div class="card">
+              <strong>Education</strong>
+              <p>BS Information Technology — Saint Louis University</p>
+            </div>
+            <div class="card">
+              <strong>Availability</strong>
+              <p>Open to internships & collaborations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-intro">clickable to view details.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card" aria-labelledby="p1-title">
+            <img src="../photos/CCA.png" alt="Screenshot of Project One" class="project-image" />
+            <div class="project-body">
+              <h3 id="p1-title">Ticket Monitoring System (Capstone)</h3>
+              <p class="project-desc">ticket monitoring system used by SLU CCA. Created UI suggestions and test cases to improve UX.(CCA Staff Only)</p>
+              <div class="tags">
+                <span class="tag">On-Going</span>
+                <span class="tag">ticketing system</span>
+                <span class="tag">private</span>
+              </div>
+              <a class="link-more" href="https://frontend-capstone-pi.vercel.app/" aria-label="View details for Ticket Monitoring System">View Details →</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" aria-labelledby="p2-title">
+            <img src="placeholder-project-2.jpg" alt="Screenshot of Project Two" class="project-image" />
+            <div class="project-body">
+              <h3 id="p2-title">Portfolio Redesign</h3>
+              <p class="project-desc">A modern responsive portfolio to showcase projects, designed with accessibility and performance in mind.</p>
+              <div class="tags">
+                <span class="tag">Design</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">Accessibility</span>
+              </div>
+              <a class="link-more" href="#" aria-label="View details for Portfolio Redesign">View Details →</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" aria-labelledby="p3-title">
+            <img src="placeholder-project-3.jpg" alt="Screenshot of Project Three" class="project-image" />
+            <div class="project-body">
+              <h3 id="p3-title">UI Prototypes</h3>
+              <p class="project-desc">Prototypes and mockups created in Figma for academic and freelance UI tasks focusing on clarity & flow.</p>
+              <div class="tags">
+                <span class="tag">Figma</span>
+                <span class="tag">Prototyping</span>
+                <span class="tag">Design Systems</span>
+              </div>
+              <a class="link-more" href="#" aria-label="View details for UI Prototypes">View Details →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section" aria-label="Skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-head"><strong>HTML / CSS</strong><span>80%</span></div>
+            <div class="progress" aria-hidden="true"><span class="progress-bar" style="width:90%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head"><strong>JavaScript Basics</strong><span>50%</span></div>
+            <div class="progress" aria-hidden="true"><span class="progress-bar" style="width:60%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head"><strong>Figma / UI</strong><span>85%</span></div>
+            <div class="progress" aria-hidden="true"><span class="progress-bar" style="width:85%"></span></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head"><strong>Java / Python</strong><span>55%</span></div>
+            <div class="progress" aria-hidden="true"><span class="progress-bar" style="width:65%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-intro">Interested in collaborating? Send a message.</p>
+
+        <form id="contactForm" class="contact-form" method="post" action="#" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required aria-required="true" />
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required aria-required="true" />
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn primary" type="submit">Send Message</button>
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <div class="socials">
+          <a href="https://github.com/mrkarvn" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a> ·
+          <a href="mailto:pmarkarvin26@gmail.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small>© <span id="year"></span> Mark Arvin D. Dela Cruz. All rights reserved.</small>
+      <nav aria-label="Footer Navigation">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Optional small JS: form validation + dark mode toggle -->
+  <script>
+    // Minimal JS only (optional). If you prefer no JS, remove this <script> block.
+    (function(){
+      // set year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // theme toggle (persist in localStorage)
+      const themeBtn = document.getElementById('themeToggle');
+      const root = document.documentElement;
+      const saved = localStorage.getItem('site-theme') || 'light';
+      root.setAttribute('data-theme', saved);
+      themeBtn.setAttribute('aria-pressed', saved === 'dark');
+
+      themeBtn.addEventListener('click', function(){
+        const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+        const next = current === 'dark' ? 'light' : 'dark';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('site-theme', next);
+        this.setAttribute('aria-pressed', next === 'dark');
+      });
+
+      // Basic form validation (client-side)
+      const form = document.getElementById('contactForm');
+      const formNote = document.getElementById('formNote');
+
+      function isValidEmail(email){
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      }
+
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        formNote.textContent = '';
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const message = form.message.value.trim();
+
+        if(!name || !email || !message){
+          formNote.textContent = 'Please fill in all required fields.';
+          formNote.style.color = '#c0392b';
+          return;
+        }
+        if(!isValidEmail(email)){
+          formNote.textContent = 'Please enter a valid email address.';
+          formNote.style.color = '#c0392b';
+          return;
+        }
+
+        // In production: send via fetch to server endpoint. Here we just show success.
+        formNote.textContent = 'Message sent — thank you! (This demo does not submit to a server.)';
+        formNote.style.color = '#2d7a36';
+        form.reset();
+      });
+
+      // Smooth focus-visible handling (enhance keyboard visibility)
+      document.addEventListener('keyup', function(e){
+        if(e.key === 'Tab') document.body.classList.add('using-keyboard');
+      });
+    })();
+  </script>
+</body>
+</html>
